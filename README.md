@@ -11,7 +11,7 @@ Step by step to get this up and running
 ### Clone repo and go to project folder
 
 ```bash
-$ git clone {repo-name}
+$ git clone {repo-url}
 ```
 
 ### Install dependencies
