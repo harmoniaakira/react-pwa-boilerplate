@@ -11,7 +11,7 @@ Step by step to get this up and running
 ### Clone repo and go to project folder
 
 ```bash
-$ git clone http://git.tribanco.com.br/tricard/site-lojista-pwa-web
+$ git clone {repo-name}
 ```
 
 ### Install dependencies
