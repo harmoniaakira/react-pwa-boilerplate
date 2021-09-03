@@ -43,6 +43,7 @@ Definições para manter a padronização da arquitetura
 Nesse projeto foi adotado o padrão de componentes funcionais utilizando Hooks
 
 [API de Referência dos Hooks](https://pt-br.reactjs.org/docs/hooks-reference.html)
+[Exemplos de como utilizar/criar Hooks](https://pt-br.reactjs.org/docs/hooks-custom.html)
 
 ## :open_file_folder: Project structure
 
