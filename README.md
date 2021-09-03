@@ -11,7 +11,7 @@ Passo-a-passo para inicializar o ambiente
 ### Clone o repositório
 
 ```bash
-$ git clone {repo-url}
+$ git clone http://git.tribanco.com.br/tricard/site-lojista-pwa-web
 ```
 
 ### Instalando as dependências
@@ -38,12 +38,11 @@ Definições para manter a padronização da arquitetura
 - Mocks: [Mirage](https://miragejs.com/docs/getting-started/introduction/);
 - [Por que react-scripts?](https://create-react-app.dev/docs/getting-started/);
 - [Por que Axios?](https://github.com/axios/axios#features);
-- [Por que Material?](https://material-ui.com/blog/material-ui-v4-is-out)
+- [Por que MaterialUI?](https://material-ui.com/blog/material-ui-v4-is-out)
 
-[Redux ou Hooks/Context Api?](https://pt-br.reactjs.org/docs/hooks-reference.html#usereducer)
+Nesse projeto foi adotado o padrão de componentes funcionais utilizando Hooks
 
-- Redux é ideal para aplicações de grande porte onde há alta frequência de atualizações de estados dos componentes;
-- Context Api e [Hooks](https://pt-br.reactjs.org/docs/hooks-reference.html) são ideais para aplicações menores com menos atualizações de estados dos componentes.
+[API de Referência dos Hooks](https://pt-br.reactjs.org/docs/hooks-reference.html)
 
 ## :open_file_folder: Project structure
 
