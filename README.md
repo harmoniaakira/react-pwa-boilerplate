@@ -2,57 +2,56 @@
 
 ## React Web Application Boilerplate
 
-The mais goal of this project is keeping and maintaining an up-to-date boilerplate for creating **React Web Apps** and **Progressive Web Apps**.
+O principal objetivo deste projeto é manter um boilerplate atualizado para a criação de **React Web Apps** e **Progressive Web Apps**.
 
-## :rocket: Startup
+## :rocket: Inicializando o ambiente
 
-Step by step to get this up and running
+Passo-a-passo para inicializar o ambiente
 
-### Clone repo and go to project folder
+### Clone o repositorio
 
 ```bash
 $ git clone {repo-url}
 ```
 
-### Install dependencies
+### Instalar as dependências
 
 ```bash
 $ npm i
 ```
 
-### Start server
+### Iniciar o servidor
 
 ```bash
 $ npm run start
 ```
 
-## :heavy_check_mark: Patterns
+## :heavy_check_mark: Padrões
 
-These are some of patterns definitions to help us to keep a default configuration and front-end arquitecture.
+Definições para manter a padronização da arquitetura
 
-- NPM or Yarn? We chose `npm`, but feel free to make your choice;
-- UI Kit library? Jump into [MaterialUI](https://material-ui.com);
-- For more complex component stylization [Styled Components](https://styled-components.com);
-- Internationalization framework [https://react.i18next.com](https://react.i18next.com);
-- Linter: Identifying and reporting on ECMAScript/JavaScript patterns [ESLint](https://eslint.org);
+- NPM ou Yarn;
+- Biblioteca UI [MaterialUI](https://material-ui.com);
+- Para estilização mais complexa de componentes [Styled Components](https://styled-components.com);
+- Framework de internacionalização [https://react.i18next.com](https://react.i18next.com);
+- Linter: Reportar padrões de ECMAScript/JavaScript [ESLint](https://eslint.org);
 - Mocks: [Mirage](https://miragejs.com/docs/getting-started/introduction/);
-- [Why react-scripts?](https://create-react-app.dev/docs/getting-started/);
-- [Why Axios?](https://github.com/axios/axios#features);
-- [Why Material?](https://material-ui.com/blog/material-ui-v4-is-out)
+- [Por que react-scripts?](https://create-react-app.dev/docs/getting-started/);
+- [Por que Axios?](https://github.com/axios/axios#features);
+- [Por que Material?](https://material-ui.com/blog/material-ui-v4-is-out)
 
-[Redux or Hooks/Context Api?](https://pt-br.reactjs.org/docs/hooks-reference.html#usereducer)
+[Redux ou Hooks/Context Api?](https://pt-br.reactjs.org/docs/hooks-reference.html#usereducer)
 
-- Redux is Perfect for larger applications where there are high-frequency state updates.
-- Context Api and [Hooks](https://pt-br.reactjs.org/docs/hooks-reference.html) are resourceful and ideal for small applications where state changes are minimal.
-
+- Redux é ideal para aplicações de grande porte onde há alta frequência de atualizações de estados dos componentes;
+- Context Api e [Hooks](https://pt-br.reactjs.org/docs/hooks-reference.html) são ideais para aplicações menores com menos atualizações de estados dos componentes.
 
 ## :open_file_folder: Project structure
 
-- **src/assets**: Static files (images, fonts and icons);
-- **src/resources**: API and endpoints configurations;
-- **src/components**: Components of React to be shared and reused in the project;
-- **src/common**: Utilities, resources, constants, assets, configurations, i18n and others;
-- **src/containers**: Page components that apply business knowledge and present themselves as pages;
-- **src/routes**: Routes of app to be used by SPA and user navigation;
-- **src/store**: State configuration with Redux;
-- **docs**: Docs configuration.
+- **src/assets**: Arquivos estáticos (imagens, fontes and icones);
+- **src/resources**: configurações de API e endpoints;
+- **src/components**: Componentes react para serem reutilizados e compartilhados;
+- **src/common**: Utils, constantes, configurações, i18n e outros;
+- **src/containers**: Componentes que se comportam como paginas;
+- **src/routes**: Rotas do aplicativo para serem usadas na navegação da SPA;
+- **src/store**: Configuração de estados do Redux;
+- **docs**: Documentos de congiguração.
