@@ -1,0 +1,61 @@
+{
+  "name": "onboarding-pf",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@material-ui/core": "^4.9.3",
+    "@material-ui/icons": "^4.9.1",
+    "@mdx-js/mdx": "^1.6.18",
+    "axios": "^0.21.1",
+    "eslint": "^7.32.0",
+    "i18next": "^19.8.1",
+    "i18next-browser-languagedetector": "^6.0.1",
+    "lodash.defaultsdeep": "^4.6.1",
+    "prop-types": "^15.7.2",
+    "qs": "^6.9.1",
+    "react": "^v17.0.2",
+    "react-dom": "^17.0.2",
+    "react-i18next": "^11.7.3",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "styled-components": "^5.3.1",
+    "env-cmd": "^10.1.0"
+  },
+  "scripts": {
+    "start": "env-cmd -f .env.dev react-scripts start",
+    "start:hml": "env-cmd -f .env.hml react-scripts start",
+    "start:prd": "env-cmd -f .env.prd react-scripts start",
+    "build:dev": "env-cmd -f .env.dev react-scripts build",
+    "build:hml": "env-cmd -f .env.hml react-scripts build",
+    "build:prd": "env-cmd -f .env.prd react-scripts build",
+    "test": "jest --runInBand",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "docz": "^2.2.0",
+    "docz-theme-default": "^1.2.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.5",
+    "enzyme-to-json": "^3.6.1",
+    "jest-styled-components": "^7.0.3",
+    "webpack": "4.44.2",
+    "webpack-dev-server": "3.11.1",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-prettier": "^6.0.1",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.2.1",
+    "prettier": "^1.19.1"
+  },
+  "jest": {
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ]
+  }
+}
