@@ -8,7 +8,7 @@ O principal objetivo deste projeto é manter um boilerplate atualizado para a cr
 
 Passo-a-passo para inicializar o ambiente
 
-### Clone o repositorio
+### Clone o repositório
 
 ```bash
 $ git clone {repo-url}
