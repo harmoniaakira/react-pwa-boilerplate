@@ -14,7 +14,7 @@ Passo-a-passo para inicializar o ambiente
 $ git clone {repo-url}
 ```
 
-### Instalar as dependências
+### Instalando as dependências
 
 ```bash
 $ npm i
@@ -33,7 +33,7 @@ Definições para manter a padronização da arquitetura
 - NPM ou Yarn;
 - Biblioteca UI [MaterialUI](https://material-ui.com);
 - Para estilização mais complexa de componentes [Styled Components](https://styled-components.com);
-- Framework de internacionalização [https://react.i18next.com](https://react.i18next.com);
+- Framework de internacionalização [react.i18next](https://react.i18next.com);
 - Linter: Reportar padrões de ECMAScript/JavaScript [ESLint](https://eslint.org);
 - Mocks: [Mirage](https://miragejs.com/docs/getting-started/introduction/);
 - [Por que react-scripts?](https://create-react-app.dev/docs/getting-started/);
