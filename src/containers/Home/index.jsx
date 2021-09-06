@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import { Trans, useTranslation } from 'react-i18next'
 import { Container, Title } from './styles'
+import exampleService from '../../resources/example'
 
 const Home = () => {
   const { t } = useTranslation()
+
+  useEffect(() => {
+    exampleService.all()
+      .then(res => console.log('res: ', res))
+  }, [])
 
   return (
     <Container>

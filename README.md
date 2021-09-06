@@ -48,7 +48,8 @@ Nesse projeto foi adotado o padrão de componentes funcionais utilizando Hooks
 ## :open_file_folder: Project structure
 
 - **src/assets**: Arquivos estáticos (imagens, fontes and icones);
-- **src/resources**: configurações de API e endpoints;
+- **src/resources**: Configurações de API e endpoints;
+- **src/mock**: Configurações de mocks de APIs;
 - **src/components**: Componentes react para serem reutilizados e compartilhados;
 - **src/common**: Utils, constantes, configurações, i18n e outros;
 - **src/containers**: Componentes que se comportam como paginas;

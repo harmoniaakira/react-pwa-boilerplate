@@ -1,6 +1,6 @@
 import api from './base'
 
-const baseApi = api('http://5ba128a58c533d0014ea0fc2.mockapi.io/todo/v1')
+const baseApi = api('api')
 
 const Api = {
   request (path, options) {
